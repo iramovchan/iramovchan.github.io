@@ -1,3 +1,42 @@
-h1 {
-color: rgb(17, 75, 95);
+* {
+margin: 0px;
+padding: 0px;
 }
+
+body {
+background-color: rgb(17, 75, 95);
+}
+
+h1 {
+color: rgb(198, 218, 191);
+}
+
+ul {
+list-style-type: none;
+background-color: rgb(198, 218, 191);
+overflow: hidden;
+
+}
+
+ul li {
+float: left;
+
+}
+
+li a {
+padding: 10px;
+display: block;
+color: white;
+text-decoration: none;
+text-align: center;
+}
+
+
+li a:hover:not(.active) {
+background-color: rgb(26, 147, 111);
+}
+
+.active {
+background-color: rgb(26, 147, 111);
+}
+
