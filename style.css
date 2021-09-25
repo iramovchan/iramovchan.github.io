@@ -1,100 +1,53 @@
 * {
-margin: 0px;
-padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 
 body {
-background-color: rgb(17, 75, 95);
+    background-color: rgb(17, 75, 95);
 }
 
 h1 {
-color: rgb(198, 218, 191);
+    color: rgb(198, 218, 191);
+    text-align: center;
 }
 
 ul {
-list-style-type: none;
-background-color: rgb(198, 218, 191);
-overflow: hidden;
-position: fixed;
-
-}
-
-ul li {
-float: left;
-}
-
-li a {
-padding: 10px;
-display: block;
-color: white;
-text-decoration: none;
-text-align: center;
-}
-
-
-li a:hover:not(.active) {
-background-color: rgb(26, 147, 111);
-}
-
-.active {
-background-color: rgb(26, 147, 111);
+    list-style-type: none;
+    float: left;
+    width: 20%;
+    background-color: rgb(198, 218, 191);
 }
 
 section {
-position: absolute;
-top: 50px;
+    float: left;
+    width: 80%;
 }
 
-div{
-height: 100px;
-width: 100px;
+li a {
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
 }
 
-#black{
-height: 200px;
-width: 200px;
-background-color: black;
-position: absolute;
-top: 100px;
-z-index: 1;
+li:hover:not(.active) {
+    background-color: rgb(26, 147, 111);
 }
 
-#yellow{
-height: 125px;
-width: 125px;
-background-color: yellow;
-position: absolute;
-top: 100px;
-z-index: 2;
+.active {
+    background-color: rgb(26, 147, 111);
 }
 
-#red{
-background-color: red;
-position: absolute;
-top: 100px;
-z-index: 3;
-}
 
-#blue{
-background-color: blue;
-position: absolute;
-top: 200px;
-left: 100px;
-z-index: 2;
-}
-#green{
-background-color: green;
-position: absolute;
-top: 150px;
-left: 50px;
-z-index: 4;
-}
 
 footer {
-background-color: rgb(198, 218, 191);
-text-align: center;
-position: fixed;
-bottom: 0;
-width: 100%;
+    background-color: rgb(198, 218, 191);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
