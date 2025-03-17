@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+    color: #444444;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.delicious-handrawn-regular {
+    font-family: "Delicious Handrawn", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+/*    background-color: rgb(17, 75, 95); green background color
+rgb(32, 33, 36)
+*/
+/* background-color: rgb(250, 250, 250); */
+
+
+hr {
+    display: block;
+    clear: both;
+    color: rgb(198, 218, 191);
+}
+
+h2, p {
+    /*color: rgb(198, 218, 191);*/
+    padding: 10px;
+}
+
+video {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.text_2 {
+    float: left;
+}
+
+
+iframe{
+    display: block;
+    width: 75%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 0;
+}
+
+img {
+    width: 5%;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+/* The navigation bar */
+#navbar {
+    overflow: hidden;
+    /*background-color: rgb(250, 250, 250);*/
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+ul {
+    list-style-type: none;
+    width: 30%;
+}
+
+li {
+    /* float: center; */
+    width: 25%;
+}
+
+#header {
+    /*background-color: rgb(17, 75, 95);*/
+    /*color: rgb(198, 218, 191);*/
+    color: #444444;
+    text-align: center;
+    /* float: left; */
+    display: block;
+}
+
+li a {
+    padding: 10px;
+    display: block;
+    /*color: rgb(198, 218, 191);*/
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Links inside the navbar */
+/* .navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} */
+
+/* Change background on mouse-over */
+#navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+a:hover:not(.active) {
+    background-color: rgb(26, 147, 111);
+}
+
+.active {
+    background-color: rgb(26, 147, 111);
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+

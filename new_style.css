@@ -1,0 +1,134 @@
+body{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden; 
+
+}
+
+.absolute{
+    position: absolute;
+    /* top: 50px !important; */
+    inset: 0;
+    justify-content: center;
+    /* display: inline-flex; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.bg-shape1{
+    width: 600px;
+    height: 600px;
+    border-radius: 9999px;
+    /* border-radius: 50%; ensures the shapes are perfect circles */
+    
+    position: relative;
+    animation: one 10s infinite;
+    /* filter: blur(90px); Adds the blur effect */
+    background-color: inherit;
+    will-change: transform, opacity; /* Tells the browser to optimize for transform and opacity changes */
+    z-index: 1;
+}
+
+.bg-shape2{
+    width: 700px;
+    height: 700px;
+    border-radius: 9999px;
+
+    /* border-radius: 50%; */
+    
+    position: relative;
+    animation: two 10s infinite;
+    /* filter: blur(90px); Adds the blur effect */
+    background-color: inherit;
+    will-change: transform, opacity; /* Tells the browser to optimize for transform and opacity changes */
+    z-index: 1;
+}
+
+
+.bg-shape3{
+    width: 300px;
+    height: 300px;
+    border-radius: 9999px;
+    /* border-radius: 50%; */
+    
+    position: relative;
+    animation: three 10s infinite;
+    /* filter: blur(90px); Adds the blur effect */
+    background-color: inherit;
+    will-change: transform, opacity; /* Tells the browser to optimize for transform and opacity changes */
+    z-index: 1;
+}
+
+
+@keyframes one{
+    0%{left: 0px; top: 0px;}
+    25%{left: -100px; top: 70px;}
+    50%{left: 20px; top: 150px;}
+    75%{left: 50px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+}
+
+@keyframes two{
+    0%{left: 0px; top: 0px;}
+    25%{left: 50px; top: 10px;}
+    50%{left: 100px; top: 50px;}
+    75%{left: 50px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+}
+
+@keyframes three{
+    0%{left: 0px; top: 0px;}
+    25%{left: 150px; top: -50px;}
+    50%{left: 100px; top: 0px;}
+    75%{left: 50px; top: 50px;}
+    100%{left: 0px; top: 0px;}
+}
+
+.opacity-50{
+    opacity: .3;
+}
+
+.bg-blur{
+    filter: blur(90px);
+}
+
+.bg-primary{
+    background-color: rgb(30, 0, 255);
+}
+
+.bg-teal{
+    background-color: rgb(255, 72, 173);
+}
+
+.bg-purple{
+    background-color: rgb(140, 0, 215);
+}
+
+#name-header{
+    flex: 0 0 1000px;
+}
+
+h1{
+    margin: 0;
+    /* top: 200px; */
+    text-align: center;
+    /* vertical-align: middle; */
+    line-height: 90px;  
+    font-family: sans-serif;
+    font-size: 90px;
+    position: relative;
+    z-index: 10;
+}
+
+
